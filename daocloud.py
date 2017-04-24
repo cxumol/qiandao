@@ -15,7 +15,7 @@ def daocloud_restart():
     session = requests.Session()
     session.headers.update(headers)
     
-    resp = session.post("https://openapi.daocloud.io/v1/apps/"+ appid +"/actions/restart", {})
+    resp = session.post('https://openapi.daocloud.io/v1/apps/'+ appid +'/actions/restart', {})
     
 if __name__ == '__main__':
     daocloud_restart()
