@@ -11,7 +11,7 @@ token = os.getenv('token')
 
 
 def daocloud_restart():
-    headers = {"Authorization": token}
+    headers = {'Authorization': token}
     session = requests.Session()
     session.headers.update(headers)
     
