@@ -1,6 +1,7 @@
 # coding: utf-8
 
 import requests
+import os
 
 # if you don't have a config.py
 # You can set v2ex_username, v2ex_password yourself
