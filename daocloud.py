@@ -3,8 +3,8 @@
 import requests
 import os
 
-appid = os.getenv('appid1')
-appid = os.getenv('appid2')
+appid1 = os.getenv('appid1')
+appid2 = os.getenv('appid2')
 token = os.getenv('token')
 
 
