@@ -1,5 +1,36 @@
 # 自动签到
 
+定制云签到, 选这个仓库. 好处在于
+
+- travis-ci 做云定时任务, 省事放心 
+- 基于 py.requests, 人性化 
+
+该版转载自 github.com/KaiyangNi 对 github.com/bonfy/qiandao 的修改版本, 支持网站如下.
+
+```yaml
+site: v2ex.com
+status: Discontinued
+file: ./v2ex.py
+note:
+- v2ex 改变登陆政策 (201710), 增加验证码后, 现存签到脚本的登录方式统统失效.
+- 因此不再建议使用脚本签到 v 站.
+```
+```yaml
+site: daocloud.io
+status: Suspended
+file: ./dacloud.py
+```
+```yaml
+site: ss-panel
+status: coming-soon
+source: github.com/zhjc1124/ssr_autocheckin
+file: 
+
+```
+以下原文转发
+
+----
+
 很多网站都有签到的功能，每天你签到后可以获得一定的收益，用于该网站的一些功能获得。但是要每天去点真的很需要恒心与毅力。大家想获得收益，但是又每天不想去登陆点击，所以很多签到项目应运而生，其中比较著名的是[binux](https://github.com/binux) 的 [qiandao](https://github.com/binux/qiandao)
 
 其实这些签到项目基本上就是爬虫功能的应用，所以我自己也就在这里写几个练练手。写这些项目的时候还是有好多心得体会的，都整理一下吧。
