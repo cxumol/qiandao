@@ -1,8 +1,8 @@
 # ref https://rawgit.com/zhjc1124/ssr_autocheckin/master/main.py
 import requests
-import os
+import sys
 
-base_url = os.argv[3]
+base_url = sys.argv[3]
 
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -12,8 +12,8 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 def checkin():
 
-    email = os.argv[1]
-    password = os.argv[2]
+    email = sys.argv[1]
+    password = sys.argv[2]
 
     email = email.split('@')
     email = email[0] + '%40' + email[1]
