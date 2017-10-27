@@ -5,5 +5,7 @@ python:
 install: "pip install -r requirements.txt"
 # command to run tests
 script:
-  - python3 v2ex.py
-  - python3 daocloud.py
+  - python3 sspanel.py "$email0" "$pwdzfy" "https://ss.zfuyun.top"
+  - python3 sspanel.py "$email0" "$pwdksj" "https://www.12306.dog"
+  - python3 sspanel.py "$email0" "$pwdvoc" "https://www.voncop.tk"
+  - python3 sspanel.py "$email1" "$pwdkiwi1" "http://ss.lmoe.kiwi"
