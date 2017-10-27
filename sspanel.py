@@ -41,4 +41,4 @@ try:
     print(checkin())
 except Exception:
     print(Exception)
-    break
+    #break
