@@ -7,5 +7,7 @@ install: "pip install -r requirements.txt"
 script:
   - python3 sspanel.py "$email0" "$pwdzfy" "https://ss.zfuyun.top"
   - python3 sspanel.py "$email0" "$pwdksj" "https://www.12306.dog"
-  - python3 sspanel.py "$email0" "$pwdvoc" "https://www.voncop.tk"
   - python3 sspanel.py "$email1" "$pwdkiwi1" "http://ss.lmoe.kiwi"
+  - python3 sspanel.py "$email0" "$pwdyzkj" "https://www.yzkj.eu"
+  - python3 sspanel.py "$email0" "$pwdhi" "https://ssr.hissr.club"
+  - python3 sspanel.py "$email0" "$pwdvoc" "https://www.voncop.tk"
