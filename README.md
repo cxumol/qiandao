@@ -22,9 +22,9 @@ file: ./dacloud.py
 ```
 ```yaml
 site: ss-panel
-status: coming-soon
+status: Working
 source: github.com/zhjc1124/ssr_autocheckin
-file: 
+file: ./sspanel.py
 
 ```
 以下原文转发
