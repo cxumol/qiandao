@@ -10,3 +10,4 @@ script:
   - python3 sspanel.py "$email1" "$pwdkiwi1" "http://ss.lmoe.kiwi"
   - python3 sspanel.py "$email0" "$pwdhi" "https://ssr.hissr.club"
   - python3 sspanel.py "$email0" "$pwdvoc" "https://www.voncop.tk"
+  - python3 sspanel.py "$email0" "$pwdjiji" "https://jiji.cool"
